@@ -1,3 +1,4 @@
-<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <string id="AppName">ETHPriceWidget</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <string id="AppName">ETH Price</string>
 </strings>

@@ -1,17 +1,16 @@
-<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq"
-  version="3.2.0">
-  <iq:application id="com.romain.ethprice" type="widget" minSdkVersion="4.0.6" name="ETH Price">
-    <iq:permissions>
-      <iq:uses-permission id="Communications"/>
-    </iq:permissions>
-    <iq:products>
-      <!-- Ajoute les produits cibles (ex: vívoactive 4, Forerunner, etc.) -->
-      <iq:product id="vivoactive4"/>
-    </iq:products>
-    <iq:languages>
-      <iq:language>en</iq:language>
-      <iq:language>fr</iq:language>
-    </iq:languages>
-    <iq:barrels/>
-  </iq:application>
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="c369eeba-6ffa-42ca-ad8d-af255698d115" type="widget" minSdkVersion="4.1.7" name="@Strings.AppName" entry="ETHPriceWidgetApp" launcherIcon="@Drawables.id_monkey">
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:products>
+            <iq:product id="fenix7pro"/>
+        </iq:products>
+        <iq:languages>
+            <iq:language>en</iq:language>
+            <iq:language>fr</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
 </iq:manifest>
