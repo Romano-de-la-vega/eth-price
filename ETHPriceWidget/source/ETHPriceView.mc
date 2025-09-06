@@ -29,8 +29,8 @@ function onUpdate(dc as Gfx.Dc) {
     dc.clear();
     dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 
-    dc.drawText(w/2, (h*30)/100, Gfx.FONT_XLARGE, "ETH", Gfx.TEXT_JUSTIFY_CENTER);
-    dc.drawText(w/2, (h*55)/100, Gfx.FONT_LARGE, _priceStr + " Ã¢â€šÂ¬", Gfx.TEXT_JUSTIFY_CENTER);
+    dc.drawText(w/2, (h*30)/100, Gfx.FONT_MEDIUM, "ETH", Gfx.TEXT_JUSTIFY_CENTER);
+    dc.drawText(w/2, (h*55)/100, Gfx.FONT_LARGE, _priceStr + " €", Gfx.TEXT_JUSTIFY_CENTER);
     dc.drawText(w/2, (h*80)/100, Gfx.FONT_SMALL, "Maj: " + _lastUpdated, Gfx.TEXT_JUSTIFY_CENTER);
 }
 
