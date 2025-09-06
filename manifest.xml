@@ -1,0 +1,17 @@
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq"
+  version="3.2.0">
+  <iq:application id="com.romain.ethprice" type="widget" minSdkVersion="4.0.6" name="ETH Price">
+    <iq:permissions>
+      <iq:uses-permission id="Communications"/>
+    </iq:permissions>
+    <iq:products>
+      <!-- Ajoute les produits cibles (ex: vívoactive 4, Forerunner, etc.) -->
+      <iq:product id="vivoactive4"/>
+    </iq:products>
+    <iq:languages>
+      <iq:language>en</iq:language>
+      <iq:language>fr</iq:language>
+    </iq:languages>
+    <iq:barrels/>
+  </iq:application>
+</iq:manifest>
